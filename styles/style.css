@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 1400px;
+    height: 72px;
+    background-color: #000000;
+}
+
+.logo {
+    display: block;
+    padding-top: 23px;
+    padding-left: 150px;
+    float: left;
+    clear: both;
+}
+
+.navbar-menu {
+    display: block;
+    padding-top: 31px;
+    padding-left: 482px;
+    padding-right: 148px;
+    text-align: right;
+}
+
+.navbar-menu li {
+    display: inline;
+    padding: 0 48px;
+    opacity: 0.69;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.navbar-menu a {
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    text-decoration: none;
+}
