@@ -208,9 +208,67 @@
     }
     
     .social-media {
-        /* Style for "Brand Pane" */
+        float: left;
+        clear: both;
         width: 1400px;
         height: 105px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
         background-color: #ffffff;
+    }
+    
+    .social-text {
+        height: 389px;
+        width: 512px;
+        padding-left: 152px;
+        padding-top: 22px;
+    }
+    
+    .social-h5 {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .social-p {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+    .social a {
+        text-align: center;
+        width: 48px;
+        height: 48px;
+        float: left;
+        background: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+        border-radius: 24px;
+        margin: 0 10px 10px 0;
+        padding: 6px;
+        color: #000;
+    }
+    
+    .github a:hover {
+        background: #191919;
+        color: #fff;
+    }
+    
+    .youtube a:hover {
+        background: #c4302b;
+        color: #fff;
+    }
+    
+    .google-pluse a:hover {
+        background: #DD4B39;
+        color: #fff;
+    }
+    
+    .twitter a:hover {
+        background: #00acee;
+        color: #fff;
     }
