@@ -61,7 +61,7 @@
     .header {
         width: 1400px;
         height: 641px;
-        background-image: url(/img/header.jpg);
+        background-image: url(/img/header1.jpg);
         position: relative;
     }
     
@@ -250,16 +250,16 @@
         border-radius: 24px;
         margin: 0 10px 10px 0;
         padding: 6px;
-        color: #000;
+        color: grey;
     }
     
-    .github a:hover {
-        background: #191919;
+    .facebook a:hover {
+        background: #3f2cd0;
         color: #fff;
     }
     
-    .youtube a:hover {
-        background: #c4302b;
+    .stumbleupon a:hover {
+        background: #de8645;
         color: #fff;
     }
     
@@ -270,5 +270,20 @@
     
     .twitter a:hover {
         background: #00acee;
+        color: #fff;
+    }
+    
+    .pinterest a:hover {
+        background: #c8232c;
+        color: #fff;
+    }
+    
+    .instagram a:hover {
+        background: #3f729b;
+        color: #fff;
+    }
+    
+    .rss a:hover {
+        background: #ff9b51;
         color: #fff;
     }
