@@ -209,8 +209,10 @@
     
     .social-media {
         width: 1400px;
+        height: 105px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
         background-color: #ffffff;
+        position: relative;
     }
     
     .social-text {
@@ -219,7 +221,8 @@
         height: 389px;
         width: 512px;
         padding-left: 152px;
-        margin-right: 87px;
+        margin-right: 100px;
+        padding-top: 22px;
     }
     
     .social-h5 {
@@ -247,7 +250,7 @@
         border: 1px solid #ccc;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
         border-radius: 24px;
-        margin: 0 30px 30px 0;
+        margin: 0 50px 30px 0;
         padding: 6px;
         color: grey;
     }
@@ -294,5 +297,222 @@
     
     .social-icons {
         margin-left: 200px;
-        margin-top: 50px;
+        padding-top: 13px;
+    }
+    
+    .feauters-panel {
+        /* Style for "Features P" */
+        width: 1400px;
+        height: 595px;
+        background-color: #f5f5f5;
+        position: relative;
+    }
+    
+    .pagination {
+        width: 112px;
+        height: 334px;
+        position: absolute;
+        top: 147px;
+        left: 142px;
+        float: left;
+        clear: both;
+    }
+    
+    .tab {
+        width: 112px;
+        height: 112px;
+        border: 0.5px solid white;
+        display: block;
+        background-color: #333333;
+        /* Style for "TAB 1" */
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 45px;
+        float: left;
+        clear: both;
+    }
+    
+    .tab:hover {
+        background-color: #ff8b38;
+    }
+    
+    .active-btn {
+        background-color: #ff8b38;
+    }
+    
+    .feauters-text {
+        float: left;
+        clear: both;
+        padding-left: 355px;
+        margin-top: -135px;
+    }
+    
+    .feauters-h5 {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .feauters-p {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-top: 52px;
+        width: 476px;
+        height: 132px;
+    }
+    
+    .buildings {
+        padding-left: 575px;
+        margin-top: -135px;
+    }
+    
+    .feauter2 {
+        /* Style for "Feature 2" */
+        width: 1400px;
+        height: 596px;
+        background-color: #ffffff;
+    }
+    
+    .panel {
+        /* Style for "image_left" */
+        width: 525px;
+        height: 375px;
+        margin-top: 111px;
+        margin-left: 116px;
+        position: relative;
+        background-image: url(../img/image_left_sub_list_u260.png);
+        float: left;
+        clear: both;
+    }
+    
+    .photo-feauter {
+        /* Style for "image_left" */
+        width: 453px;
+        height: 303px;
+        position: absolute;
+        left: 36px;
+        top: 16px;
+        border-image: linear-gradient(#0B0E7F, #0B95DD);
+    }
+    
+    .sub-list {
+        /* Style for "Sub list s" */
+        color: #212121;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 43px;
+        padding-top: 107px;
+        padding-left: 798px;
+        display: block;
+    }
+    
+    hr {
+        /* Style for "divider_or" */
+        margin-top: 29px;
+        margin-left: 158px;
+    }
+    
+    .feauter-text {
+        display: block;
+        /* Style for "Lorem ipsu" */
+        width: 413px;
+        height: 55px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 29px;
+        margin-left: 158px;
+        float: left;
+    }
+    
+    .feauter-btn {
+        display: inline-block;
+        padding: 10px;
+        color: #ff9b51;
+        background-image: url(../img/list_icon_upload_u127.svg);
+        width: 40px;
+        height: 40px;
+        margin-top: 46px;
+        margin-left: 158px;
+        float: left;
+    }
+    
+    .title {
+        /* Style for "Title" */
+        display: inline-block;
+        margin-top: 135px;
+        margin-left: -340px;
+        width: 29px;
+        height: 12px;
+        color: #212121;
+        font-family: "Open Sans - Semibold";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+    }
+    
+    .feauter-title-text {
+        /* Style for "Lorem ipsu" */
+        width: 360px;
+        height: 32px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 12px;
+        margin-right: 168px;
+        float: right;
+    }
+    
+    .title-2 {
+        display: inline-block;
+        margin-top: 42px;
+        margin-right: 500px;
+        width: 29px;
+        height: 12px;
+        color: #212121;
+        font-family: "Open Sans - Semibold";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        float: right;
+    }
+    
+    .feauter-title-text-2 {
+        width: 360px;
+        height: 32px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 12px;
+        margin-right: 168px;
+        float: right;
+    }
+    
+    .feauter-btn-2 {
+        display: inline-block;
+        padding: 11px;
+        color: #ff9b51;
+        background-image: url(../img/list_icon_upload_u127.svg);
+        width: 40px;
+        height: 40px;
+        margin-top: 67px;
+        margin-left: 158px;
+        float: left;
     }
